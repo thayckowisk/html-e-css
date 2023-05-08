@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt"> <!--área de configuração do site-->
+<head>
+    <meta charset="UTF-8"> <!-- suporta acentuação-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon"> <!-- esse comando coloca o icono do site do lado do titulo.-->
+    <title>Thayckowisk Campos</title>
+    <style>
+        body
+        {
+            background-color:rgb(215, 215, 235);
+        }
+        mark{
+            background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+     <!-- área 
+    do conteúdo do site-->
+    <h1>Thayckowisk Correia Campos</h1>
+    <hr> <!--linha horizontal-->
+    <p>Para formatar uma frase em formato de parágrafo eu uso entre as tags &lt;p&gt e &lt;/p&gt;.</p>
+    <p>Se eu precisar quebrar<br> uma linha específica eu uso o a tag &lt;br&gt;. <!--&lt = LESS THAN, &gt== GREATER THAN-->
+    
+        <p>Vamos adicionar alguns símbolos </p>
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        &cent;
+        &Delta;
+        &uarr;
+        <br>
+     &#x1F480;
+     &#x1F331; <P>Para adicionar emoji usa o comando &#x + o código em binário do emoji do site emojipédia.</P>
+
+     <p>Para conseguir boas fotos e com direitos autorais livres vá nesses seguintes sites:<br>
+        https://unsplash.com/pt-br<br>
+        https://www.pexels.com/pt-br/<br>
+        e no própio google indo no google imagens e logo em seguida em ferramentas.
+     </p>
+     <p> Para adicionar imagem usa essa tag, o tamanho da imagem deve ser redimensionado e exportado do gimp pra uma visão melhor no site</p>
+     <img src="html5.png" alt="LOGO HTML5">
+   
+    <p> Podemos também carregar imagens que estão em subpastas.</p>
+    <img src="imagrns/css3 logo.png" alt="LOGO css3">
+    <p>Também é possivel carregar imagens externas por meio de links apenas colando na frente da tag de adicionar imagens.</p>
+    <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png" alt="LOGO javascript">
+    <p> Para adicionar o icon ao lado do título do site, pesquisar no site: https://www.iconarchive.com</p>
+    <p> Para criar esse icone pode usa o site: https://favicon.io </p>
+    <br>
+    
+    <h2>Principais Formatações</h2>
+    <h3> Negrito/ Destaque</h3>
+    <p>Nessa frase temo um <b>termo em negrito</b> usando a tag B(não semântica), só tem sentido de forma;</p>
+    <p>Nesta frase, tenho um termo <strong>termo em destaque</strong> utilizando a tag STRONG(semântica), além da forma da um sentido de destaque - use sempre essa;</p>
+    <br>
+    <h3>Itálico /enfâse</h3>
+    <p>Nessa frase temo um <em>termo em enfâse</em> utilizando a tag EM.(semântica) - use sempre essa</p>
+    <p>Nesta frase temos um <i>termo em itálico</i> utilizando a tag I(não semântica).</p>
+    <h3>Texto Marcado</h3>
+<p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p>
+<h3>Texto grande e pequeno</h3>
+<p>Estamos criando um <big> texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+<h3>Texto deletado</h3>
+<p>Podemos marca<del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+<h3>Texto inserido</h3>
+<p>Podemo marcar <ins>um texto como inserido</ins> para dar uma enfâse e indicar que ele foi adicionado depois. (sublinhado)</p>
+<h3>Texto sobrescrito</h3>
+<p> Para inserir coisas do tipo X<sup>20</sup>+3</p>
+<h3>Texto subscrito</h3>
+<p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+<br>
+<h2>Outras formações</h2>
+<h3>Código-fonte / Pré-formatação</h3>
+<p>O comando <code>document.getElementByID('teste')</code>é escrito em linguagem JavaScript.</p> <!--inserindo código fonte, o comando fonte configura a formatação dos espaços das letras nas palavras-->
+<pre> <!--formatação pra mostrar em formato de código e não deixando em formatado de frase e corrigindo a tubulação-->
+    <code>
+        num= int(input('Digite um número'))
+        if num % 2 == 0;
+        print(f'O número {num} é PAR')
+                else:
+                print(f'O número {num} é ÍMPAR')
+                    print('fim do programa')
+    </code>
+</pre>
+<h3>Citações</h3>
+<p> Como diria o pai de um amigo: <q> O computador é um burro muito rápido.</q></p>
+<h3>Citações completas</h3>
+<p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+<blockquote cite "https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
+    A diferença entre elementos online e um bloco de texto é importante. Os elemento HTML neste capítulo descrevem os blocos de texto.
+</blockquote>
+<br>
+<h3>Abreviações</h3>
+<p>Estou estudando <abbr title="HyperText Markup Language"> HTML</abbr> e <abbr title= "Cascading Style Sheets"> CSS</abbr></p>
+<br>
+<h2>Listas</h2>
+<h3> Trabalhando com listas</h3>
+<h4>Listas Ordenadas</h4>
+<ol type="I"> <!--1 A a I i-->
+    <li>Acordar</li>
+    <li>Tomar café da manhã</li>
+    <li>Ir pra faculdade </li>
+    <li>Voltar pra casa</li>
+</ol>
+<h4> Listas não Ordenadas</h4>
+<ul type="circle"> <!-- tem as opções "disc", "circle" e "square" sendo disc o padrão-->
+    <li>pão</li>
+    <li>margarina</li>
+    <li>refrigerante</li>
+    <li>açúcar</li>
+</ul>
+<h4>Lista Mistas e de Definição</h4>
+<h5> Minhas linguagens favoritas</h5>
+<ol>
+    <li>Antigas:</li>
+    <ol type="a">
+        <li>Clipper</li>
+        <li>Visual Basic</li>
+        <li>Fortram</li>
+        <li>Delphi</li>
+    </ol>
+    <li>Novas</li>
+    <ul type="a"></ol>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C#</li>
+        <li>JavaScript</li> 
+</ul>
+
+<h3>Lista de Definição</h3>
+<dl>
+    <dt>Termo</dt>
+    <dd>Descrição</dd>
+</dl>
+<br>
+<dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação para a criação de conteúdo de um site.</dd>
+    <dt>CSS</dt>
+    <dd>Lingageum de marcação para a criação de design de um site.</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+</dl>
+<h2>Trabalhando com links</h2>
+<h3>Links externos</h3>
+<p>Você pode acessar o meu (com tag que vai abrir em outra aba) <a href="https://github.com/thayckowisk" target="_blank" rell="external"> <!-- abrir em outra aba--> perfil no github</a></p>
+<p>Você também pode acessar o meu (sem tag que vai abri em outra aba) <a href="https://www.instagram.com/thayckowisk/">instragram</a></p>
+<h2>Link internos</h2>
+<p>Está é a primeira página do site. Se você quiser pode acessar a <a href="pag02.html" rel="next"> segunda página.</a> </p>
+<h2>Links de Download</h2>
+</body>
+</html>
